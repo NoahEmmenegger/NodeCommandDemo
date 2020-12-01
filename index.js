@@ -1,3 +1,3 @@
-const {handle} = require('./src/handler/messageHandler')
+const { handle } = require('./src/handler/commandHandler')
 
-handle('help')
+handle('.test')
